@@ -109,7 +109,11 @@ If no new rule is detected → do not update the file.
 - No magic literals — extract to constants, enums, config
 - Use TypeScript strict mode
 - Fluid typography with `clamp()`
-- Colors: Near-black (#0a0a0a) background, Orange (#ec7532) accent
+- **Design System ("Neo"):**
+  - **Colors**: Canvas `#0F0F0F`, Surface `#1A1A1A`, Accent `#ec7532` (Wyvern Orange)
+  - **Icons**: `lucide-react` (2px stroke)
+  - **Nav**: Sidebar/Rail preferred over Topbar for scalability
+  - **Glassmorphism**: Heavy blur (20px) + low opacity backgrounds
 
 ### Critical (NEVER violate)
 
@@ -139,11 +143,13 @@ If no new rule is detected → do not update the file.
 
 ### Likes
 
-- Glassmorphism for overlays
-- Horizontal scroll carousels (Netflix-style)
-- Fluid spacing variables
+- **Neo Aesthetic**: Deep dark backgrounds (#0F0F0F), high contrast.
+- **Layout**: Vertical Sidebar (Rail) for navigation.
+- **Motion**: Skeleton loading, scale-on-hover cards.
+- **Glassmorphism**: "Liquid glass" panels with backdrop-filter.
 
 ### Dislikes
 
-- Pure black (#000000) backgrounds (use #0A0A0A)
-- Justified text
+- Pure black (#000000) backgrounds (use #0F0F0F)
+- Branded purple (Stremio default) - stick to Neutral + Orange
+- Horizontal-only navigation (limits scalability)

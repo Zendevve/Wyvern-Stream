@@ -6,11 +6,15 @@
    ========================================================================== */
 
 :root {
-  /* Color Palette - "Cineby" Style */
-  --bg-base: #0a0a0a;
-  --bg-elevated: #141414;
-  --bg-glass: rgba(20, 20, 20, 0.75);
-  --bg-glass-heavy: rgba(10, 10, 10, 0.9);
+  /* Color Palette - "Neo" Style */
+  --bg-base: #0f0f0f;
+  /* Infinite Depth */
+  --bg-elevated: #1a1a1a;
+  /* Surface L1 (Sidebar) */
+  --bg-card: #262626;
+  /* Surface L2 (Cards) */
+  --bg-glass: rgba(26, 26, 26, 0.6);
+  --bg-glass-heavy: rgba(15, 15, 15, 0.9);
 
   /* Accent Colors - Orange Spectrum */
   --accent: #ec7532;
@@ -152,6 +156,7 @@ a:focus-visible {
    ========================================================================== */
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
@@ -217,12 +222,10 @@ a:focus-visible {
    ========================================================================== */
 
 .skeleton {
-  background: linear-gradient(
-    90deg,
-    var(--bg-elevated) 25%,
-    rgba(255, 255, 255, 0.05) 50%,
-    var(--bg-elevated) 75%
-  );
+  background: linear-gradient(90deg,
+      var(--bg-elevated) 25%,
+      rgba(255, 255, 255, 0.05) 50%,
+      var(--bg-elevated) 75%);
   background-size: 200% 100%;
   animation: skeleton-loading 1.5s ease-in-out infinite;
 }
@@ -231,6 +234,7 @@ a:focus-visible {
   0% {
     background-position: 200% 0;
   }
+
   100% {
     background-position: -200% 0;
   }
@@ -241,20 +245,16 @@ a:focus-visible {
    ========================================================================== */
 
 .carousel-fade {
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 2%,
-    black 95%,
-    transparent 100%
-  );
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 2%,
-    black 95%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 2%,
+      black 95%,
+      transparent 100%);
+  -webkit-mask-image: linear-gradient(to right,
+      transparent 0%,
+      black 2%,
+      black 95%,
+      transparent 100%);
 }
 
 /* ==========================================================================
@@ -287,7 +287,8 @@ a:focus-visible {
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);
   cursor: pointer;
-  min-height: 44px; /* Accessibility: minimum touch target */
+  min-height: 44px;
+  /* Accessibility: minimum touch target */
   min-width: 44px;
 }
 

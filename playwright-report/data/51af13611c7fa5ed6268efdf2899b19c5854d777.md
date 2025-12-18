@@ -1,0 +1,805 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e8]: Wyvern
+    - navigation [ref=e9]:
+      - link "Home" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e11]
+        - generic [ref=e14]: Home
+      - link "Search" [active] [ref=e15] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e16]
+        - generic [ref=e19]: Search
+      - link "Trending" [ref=e20] [cursor=pointer]:
+        - /url: /trending
+        - img [ref=e21]
+        - generic [ref=e23]: Trending
+      - link "Movies" [ref=e24] [cursor=pointer]:
+        - /url: /movies
+        - img [ref=e25]
+        - generic [ref=e27]: Movies
+      - link "TV Shows" [ref=e28] [cursor=pointer]:
+        - /url: /tv
+        - img [ref=e29]
+        - generic [ref=e32]: TV Shows
+      - link "Library" [ref=e33] [cursor=pointer]:
+        - /url: /library
+        - img [ref=e34]
+        - generic [ref=e36]: Library
+    - button "Settings" [ref=e38]:
+      - img [ref=e39]
+      - generic [ref=e42]: Settings
+  - main [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - img "Fallout" [ref=e46]
+        - generic [ref=e49]:
+          - heading "Fallout" [level=1] [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]: "2024"
+            - generic [ref=e53]: TV Series
+            - generic [ref=e54]:
+              - generic [ref=e55]: ★
+              - generic [ref=e56]: "8.2"
+          - paragraph [ref=e57]: The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.
+          - generic [ref=e58]:
+            - link "Watch Now" [ref=e59] [cursor=pointer]:
+              - /url: /tv/106379
+              - button "Watch Now" [ref=e60]:
+                - img [ref=e61]
+                - text: Watch Now
+            - link "More Info" [ref=e63] [cursor=pointer]:
+              - /url: /tv/106379
+              - button "More Info" [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - heading "🔥 Trending Today" [level=2] [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - link [ref=e70] [cursor=pointer]:
+                - /url: /movie/83533
+                - article [ref=e71]:
+                  - 'img "Avatar: Fire and Ash" [ref=e73]'
+                  - generic [ref=e75]:
+                    - 'heading "Avatar: Fire and Ash" [level=3] [ref=e76]'
+                    - generic [ref=e77]:
+                      - generic [ref=e78]: ★
+                      - generic [ref=e79]: "7.1"
+              - link [ref=e80] [cursor=pointer]:
+                - /url: /movie/1223601
+                - article [ref=e81]:
+                  - 'img "Sisu: Road to Revenge" [ref=e83]'
+                  - generic [ref=e85]:
+                    - 'heading "Sisu: Road to Revenge" [level=3] [ref=e86]'
+                    - generic [ref=e87]:
+                      - generic [ref=e88]: ★
+                      - generic [ref=e89]: "7.7"
+              - link [ref=e90] [cursor=pointer]:
+                - /url: /movie/425274
+                - article [ref=e91]:
+                  - 'img "Now You See Me: Now You Don''t" [ref=e93]'
+                  - generic [ref=e95]:
+                    - 'heading "Now You See Me: Now You Don''t" [level=3] [ref=e96]'
+                    - generic [ref=e97]:
+                      - generic [ref=e98]: ★
+                      - generic [ref=e99]: "6.4"
+              - link [ref=e100] [cursor=pointer]:
+                - /url: /movie/812583
+                - article [ref=e101]:
+                  - 'img "Wake Up Dead Man: A Knives Out Mystery" [ref=e103]'
+                  - generic [ref=e105]:
+                    - 'heading "Wake Up Dead Man: A Knives Out Mystery" [level=3] [ref=e106]'
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: ★
+                      - generic [ref=e109]: "7.3"
+              - link [ref=e110] [cursor=pointer]:
+                - /url: /tv/211089
+                - article [ref=e111]:
+                  - img "Strange Tales of Tang Dynasty" [ref=e113]
+                  - generic [ref=e115]:
+                    - heading "Strange Tales of Tang Dynasty" [level=3] [ref=e116]
+                    - generic [ref=e117]:
+                      - generic [ref=e118]: ★
+                      - generic [ref=e119]: "8.3"
+              - link [ref=e120] [cursor=pointer]:
+                - /url: /tv/200875
+                - article [ref=e121]:
+                  - 'img "IT: Welcome to Derry" [ref=e123]'
+                  - generic [ref=e125]:
+                    - 'heading "IT: Welcome to Derry" [level=3] [ref=e126]'
+                    - generic [ref=e127]:
+                      - generic [ref=e128]: ★
+                      - generic [ref=e129]: "8.3"
+              - link [ref=e130] [cursor=pointer]:
+                - /url: /tv/308508
+                - article [ref=e131]:
+                  - img "Strange Chronicles of Tang" [ref=e133]
+                  - generic [ref=e135]:
+                    - heading "Strange Chronicles of Tang" [level=3] [ref=e136]
+                    - text: "0"
+              - link [ref=e137] [cursor=pointer]:
+                - /url: /tv/66732
+                - article [ref=e138]:
+                  - img "Stranger Things" [ref=e140]
+                  - generic [ref=e142]:
+                    - heading "Stranger Things" [level=3] [ref=e143]
+                    - generic [ref=e144]:
+                      - generic [ref=e145]: ★
+                      - generic [ref=e146]: "8.6"
+              - link [ref=e147] [cursor=pointer]:
+                - /url: /movie/798645
+                - article [ref=e148]:
+                  - img "The Running Man" [ref=e150]
+                  - generic [ref=e152]:
+                    - heading "The Running Man" [level=3] [ref=e153]
+                    - generic [ref=e154]:
+                      - generic [ref=e155]: ★
+                      - generic [ref=e156]: "6.9"
+              - link [ref=e157] [cursor=pointer]:
+                - /url: /movie/1084242
+                - article [ref=e158]:
+                  - img "Zootopia 2" [ref=e160]
+                  - generic [ref=e162]:
+                    - heading "Zootopia 2" [level=3] [ref=e163]
+                    - generic [ref=e164]:
+                      - generic [ref=e165]: ★
+                      - generic [ref=e166]: "7.6"
+              - link [ref=e167] [cursor=pointer]:
+                - /url: /tv/82596
+                - article [ref=e168]:
+                  - img "Emily in Paris" [ref=e170]
+                  - generic [ref=e172]:
+                    - heading "Emily in Paris" [level=3] [ref=e173]
+                    - generic [ref=e174]:
+                      - generic [ref=e175]: ★
+                      - generic [ref=e176]: "7.6"
+              - link [ref=e177] [cursor=pointer]:
+                - /url: /tv/103540
+                - article [ref=e178]:
+                  - img "Percy Jackson and the Olympians" [ref=e180]
+                  - generic [ref=e182]:
+                    - heading "Percy Jackson and the Olympians" [level=3] [ref=e183]
+                    - generic [ref=e184]:
+                      - generic [ref=e185]: ★
+                      - generic [ref=e186]: "7.3"
+              - link [ref=e187] [cursor=pointer]:
+                - /url: /tv/225171
+                - article [ref=e188]:
+                  - img "Pluribus" [ref=e190]
+                  - generic [ref=e192]:
+                    - heading "Pluribus" [level=3] [ref=e193]
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: ★
+                      - generic [ref=e196]: "8.0"
+              - link [ref=e197] [cursor=pointer]:
+                - /url: /movie/1584619
+                - article [ref=e198]:
+                  - img "Murder in Monaco" [ref=e200]
+                  - generic [ref=e202]:
+                    - heading "Murder in Monaco" [level=3] [ref=e203]
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: ★
+                      - generic [ref=e206]: "7.5"
+              - link [ref=e207] [cursor=pointer]:
+                - /url: /movie/701387
+                - article [ref=e208]:
+                  - img "Bugonia" [ref=e210]
+                  - generic [ref=e212]:
+                    - heading "Bugonia" [level=3] [ref=e213]
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: ★
+                      - generic [ref=e216]: "7.4"
+              - link [ref=e217] [cursor=pointer]:
+                - /url: /movie/1127628
+                - article [ref=e218]:
+                  - img "The Thing with Feathers" [ref=e220]
+                  - generic [ref=e222]:
+                    - heading "The Thing with Feathers" [level=3] [ref=e223]
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: ★
+                      - generic [ref=e226]: "7.2"
+              - link [ref=e227] [cursor=pointer]:
+                - /url: /movie/7451
+                - article [ref=e228]:
+                  - img "xXx" [ref=e230]
+                  - generic [ref=e232]:
+                    - heading "xXx" [level=3] [ref=e233]
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: ★
+                      - generic [ref=e236]: "6.0"
+              - link [ref=e237] [cursor=pointer]:
+                - /url: /movie/1275779
+                - article [ref=e238]:
+                  - img "Disclosure Day" [ref=e240]
+                  - generic [ref=e242]:
+                    - heading "Disclosure Day" [level=3] [ref=e243]
+                    - text: "0"
+              - link [ref=e244] [cursor=pointer]:
+                - /url: /movie/1368166
+                - article [ref=e245]:
+                  - img "The Housemaid" [ref=e247]
+                  - generic [ref=e249]:
+                    - heading "The Housemaid" [level=3] [ref=e250]
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: ★
+                      - generic [ref=e253]: "8.5"
+            - button "Scroll right" [ref=e254]:
+              - img [ref=e255]
+        - generic [ref=e257]:
+          - heading "🎬 Popular Movies" [level=2] [ref=e258]
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - link [ref=e261] [cursor=pointer]:
+                - /url: /movie/798645
+                - article [ref=e262]:
+                  - img "The Running Man" [ref=e264]
+                  - generic [ref=e266]:
+                    - heading "The Running Man" [level=3] [ref=e267]
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: ★
+                      - generic [ref=e270]: "6.9"
+              - link [ref=e271] [cursor=pointer]:
+                - /url: /movie/1084242
+                - article [ref=e272]:
+                  - img "Zootopia 2" [ref=e274]
+                  - generic [ref=e276]:
+                    - heading "Zootopia 2" [level=3] [ref=e277]
+                    - generic [ref=e278]:
+                      - generic [ref=e279]: ★
+                      - generic [ref=e280]: "7.6"
+              - link [ref=e281] [cursor=pointer]:
+                - /url: /movie/1223601
+                - article [ref=e282]:
+                  - 'img "Sisu: Road to Revenge" [ref=e284]'
+                  - generic [ref=e286]:
+                    - 'heading "Sisu: Road to Revenge" [level=3] [ref=e287]'
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: ★
+                      - generic [ref=e290]: "7.7"
+              - link [ref=e291] [cursor=pointer]:
+                - /url: /movie/812583
+                - article [ref=e292]:
+                  - 'img "Wake Up Dead Man: A Knives Out Mystery" [ref=e294]'
+                  - generic [ref=e296]:
+                    - 'heading "Wake Up Dead Man: A Knives Out Mystery" [level=3] [ref=e297]'
+                    - generic [ref=e298]:
+                      - generic [ref=e299]: ★
+                      - generic [ref=e300]: "7.3"
+              - link [ref=e301] [cursor=pointer]:
+                - /url: /movie/1387382
+                - article [ref=e302]:
+                  - img "Hunting Season" [ref=e304]
+                  - generic [ref=e306]:
+                    - heading "Hunting Season" [level=3] [ref=e307]
+                    - generic [ref=e308]:
+                      - generic [ref=e309]: ★
+                      - generic [ref=e310]: "6.9"
+              - link [ref=e311] [cursor=pointer]:
+                - /url: /movie/1217602
+                - article [ref=e312]:
+                  - img "London Calling" [ref=e314]
+                  - generic [ref=e316]:
+                    - heading "London Calling" [level=3] [ref=e317]
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: ★
+                      - generic [ref=e320]: "7.2"
+              - link [ref=e321] [cursor=pointer]:
+                - /url: /movie/1149167
+                - article [ref=e322]:
+                  - img "High Rollers" [ref=e324]
+                  - generic [ref=e326]:
+                    - heading "High Rollers" [level=3] [ref=e327]
+                    - generic [ref=e328]:
+                      - generic [ref=e329]: ★
+                      - generic [ref=e330]: "6.6"
+              - link [ref=e331] [cursor=pointer]:
+                - /url: /movie/83533
+                - article [ref=e332]:
+                  - 'img "Avatar: Fire and Ash" [ref=e334]'
+                  - generic [ref=e336]:
+                    - 'heading "Avatar: Fire and Ash" [level=3] [ref=e337]'
+                    - generic [ref=e338]:
+                      - generic [ref=e339]: ★
+                      - generic [ref=e340]: "7.1"
+              - link [ref=e341] [cursor=pointer]:
+                - /url: /movie/533533
+                - article [ref=e342]:
+                  - 'img "TRON: Ares" [ref=e344]'
+                  - generic [ref=e346]:
+                    - 'heading "TRON: Ares" [level=3] [ref=e347]'
+                    - generic [ref=e348]:
+                      - generic [ref=e349]: ★
+                      - generic [ref=e350]: "6.6"
+              - link [ref=e351] [cursor=pointer]:
+                - /url: /movie/1228246
+                - article [ref=e352]:
+                  - img "Five Nights at Freddy's 2" [ref=e354]
+                  - generic [ref=e356]:
+                    - heading "Five Nights at Freddy's 2" [level=3] [ref=e357]
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: ★
+                      - generic [ref=e360]: "6.3"
+              - link [ref=e361] [cursor=pointer]:
+                - /url: /movie/1218925
+                - article [ref=e362]:
+                  - 'img "Chainsaw Man - The Movie: Reze Arc" [ref=e364]'
+                  - generic [ref=e366]:
+                    - 'heading "Chainsaw Man - The Movie: Reze Arc" [level=3] [ref=e367]'
+                    - generic [ref=e368]:
+                      - generic [ref=e369]: ★
+                      - generic [ref=e370]: "8.3"
+              - link [ref=e371] [cursor=pointer]:
+                - /url: /movie/1180831
+                - article [ref=e372]:
+                  - img "Troll 2" [ref=e374]
+                  - generic [ref=e376]:
+                    - heading "Troll 2" [level=3] [ref=e377]
+                    - generic [ref=e378]:
+                      - generic [ref=e379]: ★
+                      - generic [ref=e380]: "6.7"
+              - link [ref=e381] [cursor=pointer]:
+                - /url: /movie/1083637
+                - article [ref=e382]:
+                  - 'img "Kantara - A Legend: Chapter 1" [ref=e384]'
+                  - generic [ref=e386]:
+                    - 'heading "Kantara - A Legend: Chapter 1" [level=3] [ref=e387]'
+                    - generic [ref=e388]:
+                      - generic [ref=e389]: ★
+                      - generic [ref=e390]: "7.1"
+              - link [ref=e391] [cursor=pointer]:
+                - /url: /movie/755898
+                - article [ref=e392]:
+                  - img "War of the Worlds" [ref=e394]
+                  - generic [ref=e396]:
+                    - heading "War of the Worlds" [level=3] [ref=e397]
+                    - generic [ref=e398]:
+                      - generic [ref=e399]: ★
+                      - generic [ref=e400]: "4.3"
+              - link [ref=e401] [cursor=pointer]:
+                - /url: /movie/1242898
+                - article [ref=e402]:
+                  - 'img "Predator: Badlands" [ref=e404]'
+                  - generic [ref=e406]:
+                    - 'heading "Predator: Badlands" [level=3] [ref=e407]'
+                    - generic [ref=e408]:
+                      - generic [ref=e409]: ★
+                      - generic [ref=e410]: "7.3"
+              - link [ref=e411] [cursor=pointer]:
+                - /url: /movie/1379963
+                - article [ref=e412]:
+                  - img "Tell Me Softly" [ref=e414]
+                  - generic [ref=e416]:
+                    - heading "Tell Me Softly" [level=3] [ref=e417]
+                    - generic [ref=e418]:
+                      - generic [ref=e419]: ★
+                      - generic [ref=e420]: "6.0"
+              - link [ref=e421] [cursor=pointer]:
+                - /url: /movie/980477
+                - article [ref=e422]:
+                  - img "Ne Zha 2" [ref=e424]
+                  - generic [ref=e426]:
+                    - heading "Ne Zha 2" [level=3] [ref=e427]
+                    - generic [ref=e428]:
+                      - generic [ref=e429]: ★
+                      - generic [ref=e430]: "8.1"
+              - link [ref=e431] [cursor=pointer]:
+                - /url: /movie/1196067
+                - article [ref=e432]:
+                  - img "Worldbreaker" [ref=e434]
+                  - generic [ref=e436]:
+                    - heading "Worldbreaker" [level=3] [ref=e437]
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: ★
+                      - generic [ref=e440]: "6.1"
+              - link [ref=e441] [cursor=pointer]:
+                - /url: /movie/1419406
+                - article [ref=e442]:
+                  - img "The Shadow's Edge" [ref=e444]
+                  - generic [ref=e446]:
+                    - heading "The Shadow's Edge" [level=3] [ref=e447]
+                    - generic [ref=e448]:
+                      - generic [ref=e449]: ★
+                      - generic [ref=e450]: "6.5"
+              - link [ref=e451] [cursor=pointer]:
+                - /url: /movie/1422096
+                - article [ref=e452]:
+                  - img "Good Boy" [ref=e454]
+                  - generic [ref=e456]:
+                    - heading "Good Boy" [level=3] [ref=e457]
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: ★
+                      - generic [ref=e460]: "6.8"
+            - button "Scroll right" [ref=e461]:
+              - img [ref=e462]
+        - generic [ref=e464]:
+          - heading "📺 Popular TV Shows" [level=2] [ref=e465]
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - link [ref=e468] [cursor=pointer]:
+                - /url: /tv/66732
+                - article [ref=e469]:
+                  - img "Stranger Things" [ref=e471]
+                  - generic [ref=e473]:
+                    - heading "Stranger Things" [level=3] [ref=e474]
+                    - generic [ref=e475]:
+                      - generic [ref=e476]: ★
+                      - generic [ref=e477]: "8.6"
+              - link [ref=e478] [cursor=pointer]:
+                - /url: /tv/200875
+                - article [ref=e479]:
+                  - 'img "IT: Welcome to Derry" [ref=e481]'
+                  - generic [ref=e483]:
+                    - 'heading "IT: Welcome to Derry" [level=3] [ref=e484]'
+                    - generic [ref=e485]:
+                      - generic [ref=e486]: ★
+                      - generic [ref=e487]: "8.3"
+              - link [ref=e488] [cursor=pointer]:
+                - /url: /tv/240459
+                - article [ref=e489]:
+                  - 'img "Spartacus: House of Ashur" [ref=e491]'
+                  - generic [ref=e493]:
+                    - 'heading "Spartacus: House of Ashur" [level=3] [ref=e494]'
+                    - generic [ref=e495]:
+                      - generic [ref=e496]: ★
+                      - generic [ref=e497]: "6.3"
+              - link [ref=e498] [cursor=pointer]:
+                - /url: /tv/279601
+                - article [ref=e499]:
+                  - img "Man vs Baby" [ref=e501]
+                  - generic [ref=e503]:
+                    - heading "Man vs Baby" [level=3] [ref=e504]
+                    - generic [ref=e505]:
+                      - generic [ref=e506]: ★
+                      - generic [ref=e507]: "6.9"
+              - link [ref=e508] [cursor=pointer]:
+                - /url: /tv/1416
+                - article [ref=e509]:
+                  - img "Grey's Anatomy" [ref=e511]
+                  - generic [ref=e513]:
+                    - heading "Grey's Anatomy" [level=3] [ref=e514]
+                    - generic [ref=e515]:
+                      - generic [ref=e516]: ★
+                      - generic [ref=e517]: "8.2"
+              - link [ref=e518] [cursor=pointer]:
+                - /url: /tv/1622
+                - article [ref=e519]:
+                  - img "Supernatural" [ref=e521]
+                  - generic [ref=e523]:
+                    - heading "Supernatural" [level=3] [ref=e524]
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: ★
+                      - generic [ref=e527]: "8.3"
+              - link [ref=e528] [cursor=pointer]:
+                - /url: /tv/456
+                - article [ref=e529]:
+                  - img "The Simpsons" [ref=e531]
+                  - generic [ref=e533]:
+                    - heading "The Simpsons" [level=3] [ref=e534]
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: ★
+                      - generic [ref=e537]: "8.0"
+              - link [ref=e538] [cursor=pointer]:
+                - /url: /tv/2734
+                - article [ref=e539]:
+                  - 'img "Law & Order: Special Victims Unit" [ref=e541]'
+                  - generic [ref=e543]:
+                    - 'heading "Law & Order: Special Victims Unit" [level=3] [ref=e544]'
+                    - generic [ref=e545]:
+                      - generic [ref=e546]: ★
+                      - generic [ref=e547]: "7.9"
+              - link [ref=e548] [cursor=pointer]:
+                - /url: /tv/279041
+                - article [ref=e549]:
+                  - img "Speed and Love" [ref=e551]
+                  - generic [ref=e553]:
+                    - heading "Speed and Love" [level=3] [ref=e554]
+                    - generic [ref=e555]:
+                      - generic [ref=e556]: ★
+                      - generic [ref=e557]: "8.0"
+              - link [ref=e558] [cursor=pointer]:
+                - /url: /tv/114868
+                - article [ref=e559]:
+                  - img "Record of Ragnarok" [ref=e561]
+                  - generic [ref=e563]:
+                    - heading "Record of Ragnarok" [level=3] [ref=e564]
+                    - generic [ref=e565]:
+                      - generic [ref=e566]: ★
+                      - generic [ref=e567]: "8.4"
+              - link [ref=e568] [cursor=pointer]:
+                - /url: /tv/79744
+                - article [ref=e569]:
+                  - img "The Rookie" [ref=e571]
+                  - generic [ref=e573]:
+                    - heading "The Rookie" [level=3] [ref=e574]
+                    - generic [ref=e575]:
+                      - generic [ref=e576]: ★
+                      - generic [ref=e577]: "8.5"
+              - link [ref=e578] [cursor=pointer]:
+                - /url: /tv/259886
+                - article [ref=e579]:
+                  - img "The War Between the Land and the Sea" [ref=e581]
+                  - generic [ref=e583]:
+                    - heading "The War Between the Land and the Sea" [level=3] [ref=e584]
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: ★
+                      - generic [ref=e587]: "7.1"
+              - link [ref=e588] [cursor=pointer]:
+                - /url: /tv/1399
+                - article [ref=e589]:
+                  - img "Game of Thrones" [ref=e591]
+                  - generic [ref=e593]:
+                    - heading "Game of Thrones" [level=3] [ref=e594]
+                    - generic [ref=e595]:
+                      - generic [ref=e596]: ★
+                      - generic [ref=e597]: "8.5"
+              - link [ref=e598] [cursor=pointer]:
+                - /url: /tv/4614
+                - article [ref=e599]:
+                  - img "NCIS" [ref=e601]
+                  - generic [ref=e603]:
+                    - heading "NCIS" [level=3] [ref=e604]
+                    - generic [ref=e605]:
+                      - generic [ref=e606]: ★
+                      - generic [ref=e607]: "7.6"
+              - link [ref=e608] [cursor=pointer]:
+                - /url: /tv/1396
+                - article [ref=e609]:
+                  - img "Breaking Bad" [ref=e611]
+                  - generic [ref=e613]:
+                    - heading "Breaking Bad" [level=3] [ref=e614]
+                    - generic [ref=e615]:
+                      - generic [ref=e616]: ★
+                      - generic [ref=e617]: "8.9"
+              - link [ref=e618] [cursor=pointer]:
+                - /url: /tv/225171
+                - article [ref=e619]:
+                  - img "Pluribus" [ref=e621]
+                  - generic [ref=e623]:
+                    - heading "Pluribus" [level=3] [ref=e624]
+                    - generic [ref=e625]:
+                      - generic [ref=e626]: ★
+                      - generic [ref=e627]: "8.0"
+              - link [ref=e628] [cursor=pointer]:
+                - /url: /tv/46952
+                - article [ref=e629]:
+                  - img "The Blacklist" [ref=e631]
+                  - generic [ref=e633]:
+                    - heading "The Blacklist" [level=3] [ref=e634]
+                    - generic [ref=e635]:
+                      - generic [ref=e636]: ★
+                      - generic [ref=e637]: "7.6"
+              - link [ref=e638] [cursor=pointer]:
+                - /url: /tv/1405
+                - article [ref=e639]:
+                  - img "Dexter" [ref=e641]
+                  - generic [ref=e643]:
+                    - heading "Dexter" [level=3] [ref=e644]
+                    - generic [ref=e645]:
+                      - generic [ref=e646]: ★
+                      - generic [ref=e647]: "8.2"
+              - link [ref=e648] [cursor=pointer]:
+                - /url: /tv/1408
+                - article [ref=e649]:
+                  - img "House" [ref=e651]
+                  - generic [ref=e653]:
+                    - heading "House" [level=3] [ref=e654]
+                    - generic [ref=e655]:
+                      - generic [ref=e656]: ★
+                      - generic [ref=e657]: "8.6"
+              - link [ref=e658] [cursor=pointer]:
+                - /url: /tv/549
+                - article [ref=e659]:
+                  - img "Law & Order" [ref=e661]
+                  - generic [ref=e663]:
+                    - heading "Law & Order" [level=3] [ref=e664]
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: ★
+                      - generic [ref=e667]: "7.4"
+            - button "Scroll right" [ref=e668]:
+              - img [ref=e669]
+        - generic [ref=e671]:
+          - heading "⭐ Top Rated" [level=2] [ref=e672]
+          - generic [ref=e673]:
+            - generic [ref=e674]:
+              - link [ref=e675] [cursor=pointer]:
+                - /url: /movie/278
+                - article [ref=e676]:
+                  - img "The Shawshank Redemption" [ref=e678]
+                  - generic [ref=e680]:
+                    - heading "The Shawshank Redemption" [level=3] [ref=e681]
+                    - generic [ref=e682]:
+                      - generic [ref=e683]: ★
+                      - generic [ref=e684]: "8.7"
+              - link [ref=e685] [cursor=pointer]:
+                - /url: /movie/238
+                - article [ref=e686]:
+                  - img "The Godfather" [ref=e688]
+                  - generic [ref=e690]:
+                    - heading "The Godfather" [level=3] [ref=e691]
+                    - generic [ref=e692]:
+                      - generic [ref=e693]: ★
+                      - generic [ref=e694]: "8.7"
+              - link [ref=e695] [cursor=pointer]:
+                - /url: /movie/240
+                - article [ref=e696]:
+                  - img "The Godfather Part II" [ref=e698]
+                  - generic [ref=e700]:
+                    - heading "The Godfather Part II" [level=3] [ref=e701]
+                    - generic [ref=e702]:
+                      - generic [ref=e703]: ★
+                      - generic [ref=e704]: "8.6"
+              - link [ref=e705] [cursor=pointer]:
+                - /url: /movie/424
+                - article [ref=e706]:
+                  - img "Schindler's List" [ref=e708]
+                  - generic [ref=e710]:
+                    - heading "Schindler's List" [level=3] [ref=e711]
+                    - generic [ref=e712]:
+                      - generic [ref=e713]: ★
+                      - generic [ref=e714]: "8.6"
+              - link [ref=e715] [cursor=pointer]:
+                - /url: /movie/389
+                - article [ref=e716]:
+                  - img "12 Angry Men" [ref=e718]
+                  - generic [ref=e720]:
+                    - heading "12 Angry Men" [level=3] [ref=e721]
+                    - generic [ref=e722]:
+                      - generic [ref=e723]: ★
+                      - generic [ref=e724]: "8.5"
+              - link [ref=e725] [cursor=pointer]:
+                - /url: /movie/129
+                - article [ref=e726]:
+                  - img "Spirited Away" [ref=e728]
+                  - generic [ref=e730]:
+                    - heading "Spirited Away" [level=3] [ref=e731]
+                    - generic [ref=e732]:
+                      - generic [ref=e733]: ★
+                      - generic [ref=e734]: "8.5"
+              - link [ref=e735] [cursor=pointer]:
+                - /url: /movie/155
+                - article [ref=e736]:
+                  - img "The Dark Knight" [ref=e738]
+                  - generic [ref=e740]:
+                    - heading "The Dark Knight" [level=3] [ref=e741]
+                    - generic [ref=e742]:
+                      - generic [ref=e743]: ★
+                      - generic [ref=e744]: "8.5"
+              - link [ref=e745] [cursor=pointer]:
+                - /url: /movie/19404
+                - article [ref=e746]:
+                  - img "Dilwale Dulhania Le Jayenge" [ref=e748]
+                  - generic [ref=e750]:
+                    - heading "Dilwale Dulhania Le Jayenge" [level=3] [ref=e751]
+                    - generic [ref=e752]:
+                      - generic [ref=e753]: ★
+                      - generic [ref=e754]: "8.5"
+              - link [ref=e755] [cursor=pointer]:
+                - /url: /movie/497
+                - article [ref=e756]:
+                  - img "The Green Mile" [ref=e758]
+                  - generic [ref=e760]:
+                    - heading "The Green Mile" [level=3] [ref=e761]
+                    - generic [ref=e762]:
+                      - generic [ref=e763]: ★
+                      - generic [ref=e764]: "8.5"
+              - link [ref=e765] [cursor=pointer]:
+                - /url: /movie/496243
+                - article [ref=e766]:
+                  - img "Parasite" [ref=e768]
+                  - generic [ref=e770]:
+                    - heading "Parasite" [level=3] [ref=e771]
+                    - generic [ref=e772]:
+                      - generic [ref=e773]: ★
+                      - generic [ref=e774]: "8.5"
+              - link [ref=e775] [cursor=pointer]:
+                - /url: /movie/122
+                - article [ref=e776]:
+                  - 'img "The Lord of the Rings: The Return of the King" [ref=e778]'
+                  - generic [ref=e780]:
+                    - 'heading "The Lord of the Rings: The Return of the King" [level=3] [ref=e781]'
+                    - generic [ref=e782]:
+                      - generic [ref=e783]: ★
+                      - generic [ref=e784]: "8.5"
+              - link [ref=e785] [cursor=pointer]:
+                - /url: /movie/680
+                - article [ref=e786]:
+                  - img "Pulp Fiction" [ref=e788]
+                  - generic [ref=e790]:
+                    - heading "Pulp Fiction" [level=3] [ref=e791]
+                    - generic [ref=e792]:
+                      - generic [ref=e793]: ★
+                      - generic [ref=e794]: "8.5"
+              - link [ref=e795] [cursor=pointer]:
+                - /url: /movie/372058
+                - article [ref=e796]:
+                  - img "Your Name." [ref=e798]
+                  - generic [ref=e800]:
+                    - heading "Your Name." [level=3] [ref=e801]
+                    - generic [ref=e802]:
+                      - generic [ref=e803]: ★
+                      - generic [ref=e804]: "8.5"
+              - link [ref=e805] [cursor=pointer]:
+                - /url: /movie/429
+                - article [ref=e806]:
+                  - img "The Good, the Bad and the Ugly" [ref=e808]
+                  - generic [ref=e810]:
+                    - heading "The Good, the Bad and the Ugly" [level=3] [ref=e811]
+                    - generic [ref=e812]:
+                      - generic [ref=e813]: ★
+                      - generic [ref=e814]: "8.5"
+              - link [ref=e815] [cursor=pointer]:
+                - /url: /movie/157336
+                - article [ref=e816]:
+                  - img "Interstellar" [ref=e818]
+                  - generic [ref=e820]:
+                    - heading "Interstellar" [level=3] [ref=e821]
+                    - generic [ref=e822]:
+                      - generic [ref=e823]: ★
+                      - generic [ref=e824]: "8.5"
+              - link [ref=e825] [cursor=pointer]:
+                - /url: /movie/13
+                - article [ref=e826]:
+                  - img "Forrest Gump" [ref=e828]
+                  - generic [ref=e830]:
+                    - heading "Forrest Gump" [level=3] [ref=e831]
+                    - generic [ref=e832]:
+                      - generic [ref=e833]: ★
+                      - generic [ref=e834]: "8.5"
+              - link [ref=e835] [cursor=pointer]:
+                - /url: /movie/769
+                - article [ref=e836]:
+                  - img "GoodFellas" [ref=e838]
+                  - generic [ref=e840]:
+                    - heading "GoodFellas" [level=3] [ref=e841]
+                    - generic [ref=e842]:
+                      - generic [ref=e843]: ★
+                      - generic [ref=e844]: "8.5"
+              - link [ref=e845] [cursor=pointer]:
+                - /url: /movie/346
+                - article [ref=e846]:
+                  - img "Seven Samurai" [ref=e848]
+                  - generic [ref=e850]:
+                    - heading "Seven Samurai" [level=3] [ref=e851]
+                    - generic [ref=e852]:
+                      - generic [ref=e853]: ★
+                      - generic [ref=e854]: "8.5"
+              - link [ref=e855] [cursor=pointer]:
+                - /url: /movie/12477
+                - article [ref=e856]:
+                  - img "Grave of the Fireflies" [ref=e858]
+                  - generic [ref=e860]:
+                    - heading "Grave of the Fireflies" [level=3] [ref=e861]
+                    - generic [ref=e862]:
+                      - generic [ref=e863]: ★
+                      - generic [ref=e864]: "8.4"
+              - link [ref=e865] [cursor=pointer]:
+                - /url: /movie/637
+                - article [ref=e866]:
+                  - img "Life Is Beautiful" [ref=e868]
+                  - generic [ref=e870]:
+                    - heading "Life Is Beautiful" [level=3] [ref=e871]
+                    - generic [ref=e872]:
+                      - generic [ref=e873]: ★
+                      - generic [ref=e874]: "8.4"
+            - button "Scroll right" [ref=e875]:
+              - img [ref=e876]
+      - generic [ref=e879]:
+        - paragraph [ref=e880]: This site does not store any files on its server. All contents are provided by non-affiliated third parties.
+        - paragraph [ref=e881]:
+          - text: Data provided by
+          - link "TMDB" [ref=e882] [cursor=pointer]:
+            - /url: https://www.themoviedb.org
+  - button "Open Next.js Dev Tools" [ref=e888] [cursor=pointer]:
+    - generic [ref=e891]:
+      - text: Compiling
+      - generic [ref=e892]:
+        - generic [ref=e893]: .
+        - generic [ref=e894]: .
+        - generic [ref=e895]: .
+  - alert [ref=e896]
+```

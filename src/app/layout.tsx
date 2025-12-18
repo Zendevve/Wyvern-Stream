@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/layout";
+import { Sidebar } from "@/components/layout";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -44,8 +44,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable} data-scroll-behavior="smooth">
       <body className="min-h-screen bg-[var(--bg-base)] text-[var(--text-primary)] antialiased">
-        <Navbar />
-        <main className="pt-16">
+        <Sidebar />
+        <main className="md:pl-20 pb-20 md:pb-0 transition-all duration-300">
           {children}
         </main>
       </body>
